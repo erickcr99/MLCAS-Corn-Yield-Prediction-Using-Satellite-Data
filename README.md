@@ -4,7 +4,7 @@ This repository contains the implementation for predicting corn yield per acre u
 
 ## Repository Structure
 
-- `Model.py`: This script contains the final CNN model for predicting yield using satellite imagery. It is designed to load, preprocess, and predict yield values based on the multispectral satellite images.
+- `Model.ipynb`: This script contains the final CNN model for predicting yield using satellite imagery. It is designed to load, preprocess, and predict yield values based on the multispectral satellite images.
 - `Notebook_code.ipynb`: A Jupyter Notebook that documents the exploratory data analysis, data preprocessing steps, model development process, and the training procedure. This notebook serves as a detailed walkthrough from raw data to the final model.
 - `test_HIPS_HYBRIDS_2023_V2.3.csv`: The CSV file with predicted yield values for the test dataset. These predictions were generated using the trained model.
 - `val_HIPS_HYBRIDS_2023_V2.3.csv`: The CSV file with predicted yield values for the validation dataset. These predictions were also generated using the trained model.
